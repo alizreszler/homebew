@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57A9012019F8D54D00CC7F24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A9011F19F8D54D00CC7F24 /* main.m */; };
+		57A9012319F8D54D00CC7F24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A9012219F8D54D00CC7F24 /* AppDelegate.m */; };
+		57A9012619F8D54D00CC7F24 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A9012519F8D54D00CC7F24 /* FirstViewController.m */; };
+		57A9012919F8D54D00CC7F24 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A9012819F8D54D00CC7F24 /* SecondViewController.m */; };
+		57A9012C19F8D54D00CC7F24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57A9012A19F8D54D00CC7F24 /* Main.storyboard */; };
+		57A9012E19F8D54D00CC7F24 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57A9012D19F8D54D00CC7F24 /* Images.xcassets */; };
+		57A9013119F8D54D00CC7F24 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57A9012F19F8D54D00CC7F24 /* LaunchScreen.xib */; };
+		57A9013D19F8D54D00CC7F24 /* MusicSplitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A9013C19F8D54D00CC7F24 /* MusicSplitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57A9013719F8D54D00CC7F24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57A9011219F8D54D00CC7F24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57A9011919F8D54D00CC7F24;
+			remoteInfo = MusicSplit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57A9011A19F8D54D00CC7F24 /* MusicSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57A9011E19F8D54D00CC7F24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57A9011F19F8D54D00CC7F24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57A9012119F8D54D00CC7F24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57A9012219F8D54D00CC7F24 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57A9012419F8D54D00CC7F24 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		57A9012519F8D54D00CC7F24 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		57A9012719F8D54D00CC7F24 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		57A9012819F8D54D00CC7F24 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		57A9012B19F8D54D00CC7F24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57A9012D19F8D54D00CC7F24 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		57A9013019F8D54D00CC7F24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		57A9013619F8D54D00CC7F24 /* MusicSplitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicSplitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57A9013B19F8D54D00CC7F24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57A9013C19F8D54D00CC7F24 /* MusicSplitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicSplitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57A9011719F8D54D00CC7F24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57A9013319F8D54D00CC7F24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57A9011119F8D54D00CC7F24 = {
+			isa = PBXGroup;
+			children = (
+				57A9011C19F8D54D00CC7F24 /* MusicSplit */,
+				57A9013919F8D54D00CC7F24 /* MusicSplitTests */,
+				57A9011B19F8D54D00CC7F24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57A9011B19F8D54D00CC7F24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57A9011A19F8D54D00CC7F24 /* MusicSplit.app */,
+				57A9013619F8D54D00CC7F24 /* MusicSplitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57A9011C19F8D54D00CC7F24 /* MusicSplit */ = {
+			isa = PBXGroup;
+			children = (
+				57A9012119F8D54D00CC7F24 /* AppDelegate.h */,
+				57A9012219F8D54D00CC7F24 /* AppDelegate.m */,
+				57A9012419F8D54D00CC7F24 /* FirstViewController.h */,
+				57A9012519F8D54D00CC7F24 /* FirstViewController.m */,
+				57A9012719F8D54D00CC7F24 /* SecondViewController.h */,
+				57A9012819F8D54D00CC7F24 /* SecondViewController.m */,
+				57A9012A19F8D54D00CC7F24 /* Main.storyboard */,
+				57A9012D19F8D54D00CC7F24 /* Images.xcassets */,
+				57A9012F19F8D54D00CC7F24 /* LaunchScreen.xib */,
+				57A9011D19F8D54D00CC7F24 /* Supporting Files */,
+			);
+			path = MusicSplit;
+			sourceTree = "<group>";
+		};
+		57A9011D19F8D54D00CC7F24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57A9011E19F8D54D00CC7F24 /* Info.plist */,
+				57A9011F19F8D54D00CC7F24 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57A9013919F8D54D00CC7F24 /* MusicSplitTests */ = {
+			isa = PBXGroup;
+			children = (
+				57A9013C19F8D54D00CC7F24 /* MusicSplitTests.m */,
+				57A9013A19F8D54D00CC7F24 /* Supporting Files */,
+			);
+			path = MusicSplitTests;
+			sourceTree = "<group>";
+		};
+		57A9013A19F8D54D00CC7F24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57A9013B19F8D54D00CC7F24 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57A9011919F8D54D00CC7F24 /* MusicSplit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57A9014019F8D54D00CC7F24 /* Build configuration list for PBXNativeTarget "MusicSplit" */;
+			buildPhases = (
+				57A9011619F8D54D00CC7F24 /* Sources */,
+				57A9011719F8D54D00CC7F24 /* Frameworks */,
+				57A9011819F8D54D00CC7F24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicSplit;
+			productName = MusicSplit;
+			productReference = 57A9011A19F8D54D00CC7F24 /* MusicSplit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57A9013519F8D54D00CC7F24 /* MusicSplitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57A9014319F8D54D00CC7F24 /* Build configuration list for PBXNativeTarget "MusicSplitTests" */;
+			buildPhases = (
+				57A9013219F8D54D00CC7F24 /* Sources */,
+				57A9013319F8D54D00CC7F24 /* Frameworks */,
+				57A9013419F8D54D00CC7F24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57A9013819F8D54D00CC7F24 /* PBXTargetDependency */,
+			);
+			name = MusicSplitTests;
+			productName = MusicSplitTests;
+			productReference = 57A9013619F8D54D00CC7F24 /* MusicSplitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57A9011219F8D54D00CC7F24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = HomeBrew;
+				TargetAttributes = {
+					57A9011919F8D54D00CC7F24 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					57A9013519F8D54D00CC7F24 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 57A9011919F8D54D00CC7F24;
+					};
+				};
+			};
+			buildConfigurationList = 57A9011519F8D54D00CC7F24 /* Build configuration list for PBXProject "MusicSplit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57A9011119F8D54D00CC7F24;
+			productRefGroup = 57A9011B19F8D54D00CC7F24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57A9011919F8D54D00CC7F24 /* MusicSplit */,
+				57A9013519F8D54D00CC7F24 /* MusicSplitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57A9011819F8D54D00CC7F24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A9012C19F8D54D00CC7F24 /* Main.storyboard in Resources */,
+				57A9013119F8D54D00CC7F24 /* LaunchScreen.xib in Resources */,
+				57A9012E19F8D54D00CC7F24 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57A9013419F8D54D00CC7F24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57A9011619F8D54D00CC7F24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A9012919F8D54D00CC7F24 /* SecondViewController.m in Sources */,
+				57A9012319F8D54D00CC7F24 /* AppDelegate.m in Sources */,
+				57A9012619F8D54D00CC7F24 /* FirstViewController.m in Sources */,
+				57A9012019F8D54D00CC7F24 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57A9013219F8D54D00CC7F24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A9013D19F8D54D00CC7F24 /* MusicSplitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57A9013819F8D54D00CC7F24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57A9011919F8D54D00CC7F24 /* MusicSplit */;
+			targetProxy = 57A9013719F8D54D00CC7F24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57A9012A19F8D54D00CC7F24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57A9012B19F8D54D00CC7F24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57A9012F19F8D54D00CC7F24 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57A9013019F8D54D00CC7F24 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57A9013E19F8D54D00CC7F24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57A9013F19F8D54D00CC7F24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57A9014119F8D54D00CC7F24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MusicSplit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		57A9014219F8D54D00CC7F24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MusicSplit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		57A9014419F8D54D00CC7F24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MusicSplitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicSplit.app/MusicSplit";
+			};
+			name = Debug;
+		};
+		57A9014519F8D54D00CC7F24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MusicSplitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicSplit.app/MusicSplit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57A9011519F8D54D00CC7F24 /* Build configuration list for PBXProject "MusicSplit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57A9013E19F8D54D00CC7F24 /* Debug */,
+				57A9013F19F8D54D00CC7F24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57A9014019F8D54D00CC7F24 /* Build configuration list for PBXNativeTarget "MusicSplit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57A9014119F8D54D00CC7F24 /* Debug */,
+				57A9014219F8D54D00CC7F24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		57A9014319F8D54D00CC7F24 /* Build configuration list for PBXNativeTarget "MusicSplitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57A9014419F8D54D00CC7F24 /* Debug */,
+				57A9014519F8D54D00CC7F24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57A9011219F8D54D00CC7F24 /* Project object */;
+}
